@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>32cbe515-237d-4d5e-ae5d-16982d2937f9</webElementGuid>
+      <webElementGuid>1a23de0d-8a0e-4d29-b081-7af40ce72e94</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>btn_action cart_button</value>
-      <webElementGuid>43868d16-eb7a-4b78-8d9d-65da8815ee09</webElementGuid>
+      <webElementGuid>30a64939-6028-4dd9-a563-a46026502316</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>href</name>
       <type>Main</type>
       <value>./checkout-complete.html</value>
-      <webElementGuid>3d442d67-8d37-48bc-b74c-0cdce4427fdd</webElementGuid>
+      <webElementGuid>e5408fab-3199-4dfb-bf0f-c9fd23f6d45a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>text</name>
       <type>Main</type>
       <value>FINISH</value>
-      <webElementGuid>5677b6f8-cf6a-4e82-bff4-60c75cd7354b</webElementGuid>
+      <webElementGuid>b687a0f9-5063-420f-8097-89073e38618c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;checkout_summary_container&quot;)/div[1]/div[@class=&quot;summary_info&quot;]/div[@class=&quot;cart_footer&quot;]/a[@class=&quot;btn_action cart_button&quot;]</value>
-      <webElementGuid>7b5cc0da-8355-4110-a91d-ba28bd159763</webElementGuid>
+      <webElementGuid>4906766a-0b70-4614-9f1f-cf39338981ee</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='checkout_summary_container']/div/div[2]/div[8]/a[2]</value>
-      <webElementGuid>b893d624-df83-4d9b-892d-bd75c23e5076</webElementGuid>
+      <webElementGuid>40baf245-52cb-49e9-aaee-fdab024b4d3c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'FINISH')]</value>
-      <webElementGuid>803325c1-7f0e-4b9d-ad40-b1c99acb9ea0</webElementGuid>
+      <webElementGuid>a11c47f0-6478-45b0-950a-0f73b764736e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,71 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='CANCEL'])[1]/following::a[1]</value>
-      <webElementGuid>26532483-1d1c-4e6c-ab79-a7f2b7c99930</webElementGuid>
+      <webElementGuid>65d2ba28-e581-4fb4-ad6b-f70c50b0ad26</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Total: $8.63'])[1]/following::a[2]</value>
+      <webElementGuid>0d0ac7a5-6e62-42e3-a7ea-95a59682751e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Twitter'])[1]/preceding::a[1]</value>
+      <webElementGuid>f276d1c9-19a4-48f3-b276-07ad8a984cf0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Facebook'])[1]/preceding::a[1]</value>
+      <webElementGuid>b1f3cc08-8714-4e03-aaae-75bd24851326</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='FINISH']/parent::*</value>
+      <webElementGuid>bca69757-536d-4bc1-9c86-360f63476b90</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, './checkout-complete.html')]</value>
+      <webElementGuid>6163155e-8c06-4fb1-9983-dbb677b89194</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[8]/a[2]</value>
+      <webElementGuid>2e34e867-ec8b-42fb-a675-dd2867072608</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = './checkout-complete.html' and (text() = 'FINISH' or . = 'FINISH')]</value>
+      <webElementGuid>fb296163-26d9-4e72-ab6c-505bf87e45d0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Total: $10.79'])[1]/following::a[2]</value>
+      <webElementGuid>ea99fd61-b5f5-4730-9a3d-360741025898</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,53 +158,5 @@
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Total: $32.39'])[1]/following::a[2]</value>
       <webElementGuid>1c6eae97-afe4-4a4a-b433-0f38bfeb98bb</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Twitter'])[1]/preceding::a[1]</value>
-      <webElementGuid>31641a69-8f2d-472a-a851-c1c4f92d4d09</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Facebook'])[1]/preceding::a[1]</value>
-      <webElementGuid>a2382275-111c-46e6-9b4c-b39fe7497f15</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='FINISH']/parent::*</value>
-      <webElementGuid>06092333-b6f6-4a7c-a80d-6acbd55dc20b</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:href</name>
-      <type>Main</type>
-      <value>//a[contains(@href, './checkout-complete.html')]</value>
-      <webElementGuid>9a63d1ea-1569-4dee-8b30-7b0b3bfeafd5</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:position</name>
-      <type>Main</type>
-      <value>//div[8]/a[2]</value>
-      <webElementGuid>491b20cf-a05f-479c-8b56-9d50693e51ce</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:customAttributes</name>
-      <type>Main</type>
-      <value>//a[@href = './checkout-complete.html' and (text() = 'FINISH' or . = 'FINISH')]</value>
-      <webElementGuid>146c418a-7632-40b4-9866-b6b502ff117e</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

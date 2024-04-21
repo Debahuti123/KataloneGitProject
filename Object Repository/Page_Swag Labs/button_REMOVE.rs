@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>h2_THANK YOU FOR YOUR ORDER</name>
+   <name>button_REMOVE</name>
    <tag></tag>
-   <elementGuidId>9ce5fd87-7cac-4f1a-bd71-383b682b7784</elementGuidId>
+   <elementGuidId>b9c5fb56-1fe7-4d7e-af33-d5ad70136b90</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='checkout_complete_container']/h2</value>
+         <value>//div[@id='cart_contents_container']/div/div/div[3]/div[2]/div[2]/button</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>h2.complete-header</value>
+         <value>button.btn_secondary.cart_button</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:role=heading[name=&quot;THANK YOU FOR YOUR ORDER&quot;i]</value>
+         <value>div >> internal:has-text=/^29\.99REMOVE$/ >> internal:role=button</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -28,95 +28,95 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>h2</value>
-      <webElementGuid>6ead9858-35a1-4b9b-a39a-714c2d511e72</webElementGuid>
+      <value>button</value>
+      <webElementGuid>1bc96eeb-3e09-4988-adc2-b5a13b061c74</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>complete-header</value>
-      <webElementGuid>f82dd3df-c415-4c43-8497-a446a894c8ff</webElementGuid>
+      <value>btn_secondary cart_button</value>
+      <webElementGuid>9c53c6ee-6254-4707-bfe3-fa54c55582a2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>THANK YOU FOR YOUR ORDER</value>
-      <webElementGuid>de7062b8-9e81-4f18-af4f-35d73cceeabb</webElementGuid>
+      <value>REMOVE</value>
+      <webElementGuid>c6a368ee-9ea7-4832-9cd7-226f236ef660</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;checkout_complete_container&quot;)/h2[@class=&quot;complete-header&quot;]</value>
-      <webElementGuid>7ba3ac71-412c-4ee0-b3f5-4cdcf3a51357</webElementGuid>
+      <value>id(&quot;cart_contents_container&quot;)/div[1]/div[@class=&quot;cart_list&quot;]/div[@class=&quot;cart_item&quot;]/div[@class=&quot;cart_item_label&quot;]/div[@class=&quot;item_pricebar&quot;]/button[@class=&quot;btn_secondary cart_button&quot;]</value>
+      <webElementGuid>58f1078c-f28d-429e-b75b-f8b93e6e3080</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='checkout_complete_container']/h2</value>
-      <webElementGuid>aa33ab6f-066e-4efb-82dc-f3a33e135e98</webElementGuid>
+      <value>//div[@id='cart_contents_container']/div/div/div[3]/div[2]/div[2]/button</value>
+      <webElementGuid>e6be0287-ed97-4fbf-9d6f-4796586f6fcf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Finish'])[1]/following::h2[1]</value>
-      <webElementGuid>afb37422-9430-41a0-88af-6ec717bfe3bc</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sauce Labs Backpack'])[1]/following::button[1]</value>
+      <webElementGuid>aa1b6124-d243-420a-993c-25ace97e4396</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Open Menu'])[1]/following::h2[1]</value>
-      <webElementGuid>f205bc8c-6c17-461b-9e21-be7f2364dd7e</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='DESCRIPTION'])[1]/following::button[1]</value>
+      <webElementGuid>e940ad48-c326-437e-b7f5-1662acf96b67</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Twitter'])[1]/preceding::h2[1]</value>
-      <webElementGuid>e926d2b7-38a1-45b1-b532-a0262bfdf954</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sauce Labs Bike Light'])[1]/preceding::button[1]</value>
+      <webElementGuid>cc379db7-0e4b-4fa4-ad97-9d32fcb7b346</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Facebook'])[1]/preceding::h2[1]</value>
-      <webElementGuid>2c4dddb3-6d2f-4ac3-af3b-f7d37f9e2c4f</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='REMOVE'])[2]/preceding::button[1]</value>
+      <webElementGuid>7d329037-e8fc-48a9-b69a-52e0276f02f3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='THANK YOU FOR YOUR ORDER']/parent::*</value>
-      <webElementGuid>30505fca-928f-431a-90c2-0f246a2bbc3e</webElementGuid>
+      <value>//*/text()[normalize-space(.)='REMOVE']/parent::*</value>
+      <webElementGuid>e352fbed-cd94-4a74-b76e-71db7e6e87fc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//h2</value>
-      <webElementGuid>9d67be1c-173d-4587-b92d-6219b599103b</webElementGuid>
+      <value>//div[2]/button</value>
+      <webElementGuid>cb2cc1f7-1e46-4ff4-8c92-a183a3dae9b3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//h2[(text() = 'THANK YOU FOR YOUR ORDER' or . = 'THANK YOU FOR YOUR ORDER')]</value>
-      <webElementGuid>46a90b72-195c-4093-8115-b085d3a4cd64</webElementGuid>
+      <value>//button[(text() = 'REMOVE' or . = 'REMOVE')]</value>
+      <webElementGuid>dd512737-876e-4dd4-825c-2a802976b36c</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

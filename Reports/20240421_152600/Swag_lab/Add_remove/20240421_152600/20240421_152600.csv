@@ -1,0 +1,27 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Add_remove,Edge Chromium 124,,,21-04-2024 15:26:27,21-04-2024 15:27:27,1m - 0.239s,PASSED
+,,,,,,,
+Test Cases/Swag_Lab/Add_remove,Edge Chromium 124,,,21-04-2024 15:26:29,21-04-2024 15:27:27,58.393s,PASSED
+"openBrowser("""")",Edge Chromium 124,,,21-04-2024 15:26:32,21-04-2024 15:26:53,21.532s,PASSED
+"navigateToUrl(""https://www.saucedemo.com/v1/index.html"")",Edge Chromium 124,,,21-04-2024 15:26:53,21-04-2024 15:26:57,3.471s,PASSED
+"setText(findTestObject(""Object Repository/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_db77ac""), ""standard_user"")",Edge Chromium 124,,,21-04-2024 15:26:57,21-04-2024 15:27:01,3.836s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_3423e9""), ""qcu24s4901FyWDTwXGr6XA=="")",Edge Chromium 124,,,21-04-2024 15:27:01,21-04-2024 15:27:03,2.621s,PASSED
+"click(findTestObject(""Object Repository/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_0dff71""))",Edge Chromium 124,,,21-04-2024 15:27:03,21-04-2024 15:27:07,4.251s,PASSED
+"click(findTestObject(""Object Repository/Page_Swag Labs/button_ADD TO CART""))",Edge Chromium 124,,,21-04-2024 15:27:07,21-04-2024 15:27:09,1.467s,PASSED
+"click(findTestObject(""Object Repository/Page_Swag Labs/button_ADD TO CART""))",Edge Chromium 124,,,21-04-2024 15:27:09,21-04-2024 15:27:10,1.163s,PASSED
+"click(findTestObject(""Object Repository/Page_Swag Labs/path""))",Edge Chromium 124,,,21-04-2024 15:27:10,21-04-2024 15:27:12,2.282s,PASSED
+"click(findTestObject(""Object Repository/Page_Swag Labs/a_CHECKOUT""))",Edge Chromium 124,,,21-04-2024 15:27:12,21-04-2024 15:27:13,1.147s,PASSED
+"setText(findTestObject(""Object Repository/Page_Swag Labs/input_Checkout Your Information_first-name""), ""d"")",Edge Chromium 124,,,21-04-2024 15:27:13,21-04-2024 15:27:15,1.363s,PASSED
+"setText(findTestObject(""Object Repository/Page_Swag Labs/input_Checkout Your Information_last-name""), ""p"")",Edge Chromium 124,,,21-04-2024 15:27:15,21-04-2024 15:27:16,1.080s,PASSED
+"setText(findTestObject(""Object Repository/Page_Swag Labs/input_Checkout Your Information_postal-code""), ""3344231"")",Edge Chromium 124,,,21-04-2024 15:27:16,21-04-2024 15:27:17,1.202s,PASSED
+"click(findTestObject(""Object Repository/Page_Swag Labs/input_CANCEL_btn_primary cart_button""))",Edge Chromium 124,,,21-04-2024 15:27:17,21-04-2024 15:27:18,0.872s,PASSED
+"click(findTestObject(""Object Repository/Page_Swag Labs/a_FINISH""))",Edge Chromium 124,,,21-04-2024 15:27:18,21-04-2024 15:27:19,0.928s,PASSED
+"rightClick(findTestObject(""Object Repository/Page_Swag Labs/h2_THANK YOU FOR YOUR ORDER""))",Edge Chromium 124,,,21-04-2024 15:27:19,21-04-2024 15:27:20,0.932s,PASSED
+"rightClick(findTestObject(""Object Repository/Page_Swag Labs/h2_THANK YOU FOR YOUR ORDER""))",Edge Chromium 124,,,21-04-2024 15:27:20,21-04-2024 15:27:21,0.951s,PASSED
+"rightClick(findTestObject(""Object Repository/Page_Swag Labs/h2_THANK YOU FOR YOUR ORDER""))",Edge Chromium 124,,,21-04-2024 15:27:21,21-04-2024 15:27:22,0.851s,PASSED
+"rightClick(findTestObject(""Object Repository/Page_Swag Labs/h2_THANK YOU FOR YOUR ORDER""))",Edge Chromium 124,,,21-04-2024 15:27:22,21-04-2024 15:27:22,0.772s,PASSED
+"rightClick(findTestObject(""Object Repository/Page_Swag Labs/h2_THANK YOU FOR YOUR ORDER""))",Edge Chromium 124,,,21-04-2024 15:27:22,21-04-2024 15:27:23,0.755s,PASSED
+"rightClick(findTestObject(""Object Repository/Page_Swag Labs/h2_THANK YOU FOR YOUR ORDER""))",Edge Chromium 124,,,21-04-2024 15:27:23,21-04-2024 15:27:24,0.797s,PASSED
+"rightClick(findTestObject(""Object Repository/Page_Swag Labs/h2_THANK YOU FOR YOUR ORDER""))",Edge Chromium 124,,,21-04-2024 15:27:24,21-04-2024 15:27:25,0.891s,PASSED
+"rightClick(findTestObject(""Object Repository/Page_Swag Labs/div_Your order has been dispatched, and wil_5880e8""))",Edge Chromium 124,,,21-04-2024 15:27:25,21-04-2024 15:27:26,0.680s,PASSED
+closeBrowser(),Edge Chromium 124,,,21-04-2024 15:27:26,21-04-2024 15:27:27,1.822s,PASSED
