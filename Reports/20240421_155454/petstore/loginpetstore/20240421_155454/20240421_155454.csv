@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+loginpetstore,Edge Chromium 124,,,21-04-2024 15:55:23,21-04-2024 15:56:52,1m - 28.165s,PASSED
+,,,,,,,
+Test Cases/petstore/loginpetstore,Edge Chromium 124,,,21-04-2024 15:55:24,21-04-2024 15:56:52,1m - 27.597s,PASSED
+"openBrowser("""")",Edge Chromium 124,,,21-04-2024 15:55:25,21-04-2024 15:55:38,12.660s,PASSED
+"navigateToUrl(""https://petstore.octoperf.com/actions/Catalog.action"")",Edge Chromium 124,,,21-04-2024 15:55:38,21-04-2024 15:55:40,2.749s,PASSED
+"click(findTestObject(""Object Repository/Page_JPetStore Demo/a_Sign In""))",Edge Chromium 124,,,21-04-2024 15:55:40,21-04-2024 15:55:42,2.099s,PASSED
+"setText(findTestObject(""Object Repository/Page_JPetStore Demo/input_Need a user name and password_username""), ""Debahuti"")",Edge Chromium 124,,,21-04-2024 15:55:42,21-04-2024 15:56:47,1m - 4.249s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_JPetStore Demo/input_Need a user name and password_password""), ""gx5eF5RZOCViIDRmNDPMxg=="")",Edge Chromium 124,,,21-04-2024 15:56:47,21-04-2024 15:56:48,1.015s,PASSED
+"click(findTestObject(""Object Repository/Page_JPetStore Demo/input_Need a user name and password_signon""))",Edge Chromium 124,,,21-04-2024 15:56:48,21-04-2024 15:56:49,0.880s,PASSED
+"click(findTestObject(""Object Repository/Page_JPetStore Demo/a_Sign Out""))",Edge Chromium 124,,,21-04-2024 15:56:49,21-04-2024 15:56:50,1.122s,PASSED
+closeBrowser(),Edge Chromium 124,,,21-04-2024 15:56:50,21-04-2024 15:56:52,1.878s,PASSED
