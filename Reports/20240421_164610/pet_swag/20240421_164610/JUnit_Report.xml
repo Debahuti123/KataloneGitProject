@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="pet_swag" time="283.294" tests="2" failures="0" errors="0">
+   <testsuite name="Sw_login" tests="1" failures="0" errors="0" time="46.946" skipped="0" timestamp="21-04-2024T16:47:24" hostname="QH615NR - IN2410268W1.ey.net" id="Test Suites/Swag_lab/Sw_login">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\QH615NR\\OneDrive - EY\\Desktop\\Katalon Training\\Git\\KatalonGitProjectfolder\\KataloneGitProject\\Reports\\20240421_164610\\Swag_lab\\Sw_login\\20240421_164618"/>
+         <property name="logFiles" value="C:\\Users\\QH615NR\\OneDrive - EY\\Desktop\\Katalon Training\\Git\\KatalonGitProjectfolder\\KataloneGitProject\\Reports\\20240421_164610\\Swag_lab\\Sw_login\\20240421_164618\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="QH615NR - IN2410268W1.ey.net"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.4.0.212"/>
+         <property name="browser" value="Edge Chromium 124"/>
+         <property name="hostAddress" value="192.168.1.6"/>
+         <property name="sessionId" value="458060843871613bfd827da15d528eb6"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Swag_Lab/Sw_login" time="45.296" classname="Test Cases/Swag_Lab/Sw_login" status="PASSED">
+         <system-out><![CDATA[21-04-2024T16:47:26 - [TEST_CASE][PASSED] - Test Cases/Swag_Lab/Sw_login: Test Cases/Swag_Lab/Sw_login
+
+21-04-2024T16:47:28 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+21-04-2024T16:47:31 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+21-04-2024T16:47:39 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+21-04-2024T16:47:49 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+21-04-2024T16:47:49 - [TEST_STEP][PASSED] - navigateToUrl("https://www.saucedemo.com/v1/index.html"): Navigate to 'https://www.saucedemo.com/v1/index.html' successfully
+
+21-04-2024T16:47:53 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/v1/index.html' successfully
+
+21-04-2024T16:47:53 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_db77ac"), "standard_user"): Text 'standard_user' is set on object 'Object Repository/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_db77ac'
+
+21-04-2024T16:47:59 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_db77ac'
+
+21-04-2024T16:47:59 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_3423e9"), "qcu24s4901FyWDTwXGr6XA=="): Text ****** has been set on object 'Object Repository/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_3423e9'
+
+21-04-2024T16:48:02 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_3423e9'
+
+21-04-2024T16:48:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_0dff71")): Object: 'Object Repository/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_0dff71' is clicked on
+
+21-04-2024T16:48:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_0dff71' is clicked on
+
+21-04-2024T16:48:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Swag Labs/button_Open Menu")): Object: 'Object Repository/Page_Swag Labs/button_Open Menu' is clicked on
+
+21-04-2024T16:48:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/button_Open Menu' is clicked on
+
+21-04-2024T16:48:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Swag Labs/a_Logout")): Object: 'Object Repository/Page_Swag Labs/a_Logout' is clicked on
+
+21-04-2024T16:48:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/a_Logout' is clicked on
+
+21-04-2024T16:48:07 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+21-04-2024T16:48:11 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[21-04-2024T16:47:24 - [TEST_SUITE][PASSED] - Sw_login: Test Cases/Swag_Lab/Sw_login]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+   <testsuite name="loginpetstore" tests="1" failures="0" errors="0" time="137.78" skipped="0" timestamp="21-04-2024T16:49:10" hostname="QH615NR - IN2410268W1.ey.net" id="Test Suites/petstore/loginpetstore">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\QH615NR\\OneDrive - EY\\Desktop\\Katalon Training\\Git\\KatalonGitProjectfolder\\KataloneGitProject\\Reports\\20240421_164610\\petstore\\loginpetstore\\20240421_164632"/>
+         <property name="logFiles" value="C:\\Users\\QH615NR\\OneDrive - EY\\Desktop\\Katalon Training\\Git\\KatalonGitProjectfolder\\KataloneGitProject\\Reports\\20240421_164610\\petstore\\loginpetstore\\20240421_164632\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="QH615NR - IN2410268W1.ey.net"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.4.0.212"/>
+         <property name="browser" value="Edge Chromium 124"/>
+         <property name="hostAddress" value="192.168.1.6"/>
+         <property name="sessionId" value="e69803476149bfbca73a474083e501e7"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/petstore/loginpetstore" time="134.981" classname="Test Cases/petstore/loginpetstore" status="PASSED">
+         <system-out><![CDATA[21-04-2024T16:49:13 - [TEST_CASE][PASSED] - Test Cases/petstore/loginpetstore: Test Cases/petstore/loginpetstore
+
+21-04-2024T16:49:18 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+21-04-2024T16:49:22 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+21-04-2024T16:49:32 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+21-04-2024T16:49:48 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+21-04-2024T16:49:48 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://petstore.octoperf.com/actions/Catalog.action' successfully
+
+21-04-2024T16:49:53 - [MESSAGE][PASSED] - Navigate to 'https://petstore.octoperf.com/actions/Catalog.action' successfully
+
+21-04-2024T16:49:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_JPetStore Demo/a_Sign In")): Object: 'Object Repository/Page_JPetStore Demo/a_Sign In' is clicked on
+
+21-04-2024T16:49:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_JPetStore Demo/a_Sign In' is clicked on
+
+21-04-2024T16:49:56 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_JPetStore Demo/input_Need a user name and password_username"), Username): Text 'Debahuti' is set on object 'Object Repository/Page_JPetStore Demo/input_Need a user name and password_username'
+
+21-04-2024T16:50:29 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //input[@id='stripes--1289334889']'. Please recheck the objects properties to make sure the desired element is located. 
+
+21-04-2024T16:50:29 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_JPetStore Demo/input_Need a user name and password_username'. Try using Self-healing.
+
+21-04-2024T16:50:29 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_JPetStore Demo/input_Need a user name and password_username' was broken. Propose an alternative one: '//div[@id='Catalog']/form/p[2]/input'.
+
+21-04-2024T16:51:02 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //input[@id='stripes--1289334889']'. Please recheck the objects properties to make sure the desired element is located. 
+
+21-04-2024T16:51:02 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_JPetStore Demo/input_Need a user name and password_username'. Try using Self-healing.
+
+21-04-2024T16:51:02 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_JPetStore Demo/input_Need a user name and password_username' was broken. Propose an alternative one: '//div[@id='Catalog']/form/p[2]/input'.
+
+21-04-2024T16:51:03 - [MESSAGE][PASSED] - Text 'Debahuti' is set on object 'Object Repository/Page_JPetStore Demo/input_Need a user name and password_username'
+
+21-04-2024T16:51:03 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_JPetStore Demo/input_Need a user name and password_password"), "gx5eF5RZOCViIDRmNDPMxg=="): Text ****** has been set on object 'Object Repository/Page_JPetStore Demo/input_Need a user name and password_password'
+
+21-04-2024T16:51:05 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_JPetStore Demo/input_Need a user name and password_password'
+
+21-04-2024T16:51:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_JPetStore Demo/input_Need a user name and password_signon")): Object: 'Object Repository/Page_JPetStore Demo/input_Need a user name and password_signon' is clicked on
+
+21-04-2024T16:51:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_JPetStore Demo/input_Need a user name and password_signon' is clicked on
+
+21-04-2024T16:51:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_JPetStore Demo/a_Sign Out")): Object: 'Object Repository/Page_JPetStore Demo/a_Sign Out' is clicked on
+
+21-04-2024T16:51:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_JPetStore Demo/a_Sign Out' is clicked on
+
+21-04-2024T16:51:08 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+21-04-2024T16:51:28 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[21-04-2024T16:49:10 - [TEST_SUITE][PASSED] - loginpetstore: Test Cases/petstore/loginpetstore]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

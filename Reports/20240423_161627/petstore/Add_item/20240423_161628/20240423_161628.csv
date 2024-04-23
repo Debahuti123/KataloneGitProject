@@ -1,0 +1,18 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Add_item,Edge Chromium 124,,,23-04-2024 16:17:00,23-04-2024 16:18:43,1m - 42.537s,PASSED
+,,,,,,,
+Test Cases/petstore/Add _item,Edge Chromium 124,,,23-04-2024 16:17:01,23-04-2024 16:18:43,1m - 41.171s,PASSED
+"openBrowser("""")",Edge Chromium 124,,,23-04-2024 16:17:05,23-04-2024 16:17:20,15.803s,PASSED
+"navigateToUrl(""https://petstore.octoperf.com/actions/Catalog.action"")",Edge Chromium 124,,,23-04-2024 16:17:20,23-04-2024 16:17:23,2.738s,PASSED
+"click(findTestObject(""Object Repository/Page_JPetStore Demo/a_Sign In (1)""))",Edge Chromium 124,,,23-04-2024 16:17:23,23-04-2024 16:17:25,2.168s,PASSED
+"setText(findTestObject(""Object Repository/Page_JPetStore Demo/input_Need a user name and password_username (1)""), ""Debahuti"")",Edge Chromium 124,,,23-04-2024 16:17:25,23-04-2024 16:18:29,1m - 4.135s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_JPetStore Demo/input_Need a user name and password_password (1)""), ""gx5eF5RZOCViIDRmNDPMxg=="")",Edge Chromium 124,,,23-04-2024 16:18:29,23-04-2024 16:18:31,1.185s,PASSED
+"click(findTestObject(""Object Repository/Page_JPetStore Demo/input_Need a user name and password_signon (1)""))",Edge Chromium 124,,,23-04-2024 16:18:31,23-04-2024 16:18:32,1.851s,PASSED
+"click(findTestObject(""Object Repository/Page_JPetStore Demo/img""))",Edge Chromium 124,,,23-04-2024 16:18:32,23-04-2024 16:18:34,1.122s,PASSED
+"click(findTestObject(""Object Repository/Page_JPetStore Demo/a_FI-SW-01""))",Edge Chromium 124,,,23-04-2024 16:18:34,23-04-2024 16:18:35,1.307s,PASSED
+"click(findTestObject(""Object Repository/Page_JPetStore Demo/a_Add to Cart""))",Edge Chromium 124,,,23-04-2024 16:18:35,23-04-2024 16:18:36,1.143s,PASSED
+"click(findTestObject(""Object Repository/Page_JPetStore Demo/a_Proceed to Checkout""))",Edge Chromium 124,,,23-04-2024 16:18:36,23-04-2024 16:18:37,0.971s,PASSED
+"click(findTestObject(""Object Repository/Page_JPetStore Demo/input_Ship to different address_newOrder""))",Edge Chromium 124,,,23-04-2024 16:18:37,23-04-2024 16:18:38,1.081s,PASSED
+"click(findTestObject(""Object Repository/Page_JPetStore Demo/a_Confirm""))",Edge Chromium 124,,,23-04-2024 16:18:38,23-04-2024 16:18:39,1.372s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_JPetStore Demo/li_Thank you, your order has been submitted""))",Edge Chromium 124,,,23-04-2024 16:18:39,23-04-2024 16:18:40,0.859s,PASSED
+closeBrowser(),Edge Chromium 124,,,23-04-2024 16:18:40,23-04-2024 16:18:43,2.276s,PASSED

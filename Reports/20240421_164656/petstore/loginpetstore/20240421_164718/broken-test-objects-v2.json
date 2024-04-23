@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_JPetStore Demo/input_Need a user name and password_username",
+      "brokenLocator": "//input[@id\u003d\u0027stripes--1289334889\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027Catalog\u0027]/form/p[2]/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240421_164656/petstore/loginpetstore/20240421_164718/Object Repository/Page_JPetStore Demo/input_Need a user name and password_username_idRelative.png"
+    }
+  ]
+}
