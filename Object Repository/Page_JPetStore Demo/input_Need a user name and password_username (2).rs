@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Need a user name and password_signon (1)</name>
+   <name>input_Need a user name and password_username (2)</name>
    <tag></tag>
-   <elementGuidId>f93ad052-5754-4848-9857-af0d65e099d4</elementGuidId>
+   <elementGuidId>aac46faa-8154-411f-8d5d-443d2e8a8c5c</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@name='username']</value>
+         <key>CSS</key>
+         <value>#stripes--850517725</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>input[name=&quot;signon&quot;]</value>
+         <key>XPATH</key>
+         <value>//input[@id='stripes--850517725']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:role=button[name=&quot;Login&quot;i]</value>
+         <value>#stripes--850517725</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -29,70 +29,70 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>34224f5c-5560-4005-b2a1-060e8b55c339</webElementGuid>
+      <webElementGuid>aca6a2c1-af64-4180-b4b6-9f1fa0a2541a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>signon</value>
-      <webElementGuid>65d9192a-ef8d-4786-b2df-2475f69c377e</webElementGuid>
+      <value>username</value>
+      <webElementGuid>5e7e1c72-a0de-4742-b577-45bbdf1be357</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>stripes--850517725</value>
+      <webElementGuid>946871cd-44f9-41cd-bc4c-ccd77912d410</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
-      <value>submit</value>
-      <webElementGuid>e9234c10-2239-45a3-a289-f0d067cb9397</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>value</name>
-      <type>Main</type>
-      <value>Login</value>
-      <webElementGuid>a1148c7b-292c-4fc8-9975-3aaa3515a36b</webElementGuid>
+      <value>text</value>
+      <webElementGuid>6a896d43-6711-497d-801b-0e154c777b0c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;Catalog&quot;)/form[1]/input[1]</value>
-      <webElementGuid>6bb5f48f-4abd-404b-a69e-4c0b6f75857f</webElementGuid>
+      <value>id(&quot;stripes--850517725&quot;)</value>
+      <webElementGuid>960df146-6318-430e-9549-312bf5139f4b</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@name='signon']</value>
-      <webElementGuid>3511d34a-140f-4013-bb41-6ac4b9a4c7b5</webElementGuid>
+      <value>//input[@id='stripes--850517725']</value>
+      <webElementGuid>f6510747-12bc-4c93-b5a5-344092be259d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='Catalog']/form/input</value>
-      <webElementGuid>106d6bf0-686d-4bbf-ac7b-4190e49e749b</webElementGuid>
+      <value>//div[@id='Catalog']/form/p[2]/input</value>
+      <webElementGuid>e8cbb5e9-8d46-49b3-930f-ce57b6a1ea25</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/div/form/input</value>
-      <webElementGuid>8e4e5edb-3998-4194-9a57-90932fa68b8f</webElementGuid>
+      <value>//p[2]/input</value>
+      <webElementGuid>cf8cd059-fa0c-46b2-a6b2-c75dd4df331f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@name = 'signon' and @type = 'submit']</value>
-      <webElementGuid>7bbcbcd8-6d27-4e9b-86db-a07b23a877e8</webElementGuid>
+      <value>//input[@name = 'username' and @id = 'stripes--850517725' and @type = 'text']</value>
+      <webElementGuid>9a349108-9130-40f1-9c53-b675fef7b29c</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

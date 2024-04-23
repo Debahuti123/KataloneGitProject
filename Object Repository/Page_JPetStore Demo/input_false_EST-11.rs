@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Need a user name and password_signon (1)</name>
+   <name>input_false_EST-11</name>
    <tag></tag>
-   <elementGuidId>f93ad052-5754-4848-9857-af0d65e099d4</elementGuidId>
+   <elementGuidId>cc54be9c-339d-4016-b06d-986c19bf58c6</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@name='username']</value>
+         <key>CSS</key>
+         <value>input[name=&quot;EST-11&quot;]</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>input[name=&quot;signon&quot;]</value>
+         <key>XPATH</key>
+         <value>//input[@name='EST-11']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:role=button[name=&quot;Login&quot;i]</value>
+         <value>input[name=&quot;EST-11&quot;]</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -29,70 +29,78 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>34224f5c-5560-4005-b2a1-060e8b55c339</webElementGuid>
+      <webElementGuid>769123aa-2cff-439f-bfea-1edc6943189e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>size</name>
+      <type>Main</type>
+      <value>3</value>
+      <webElementGuid>c172bf45-fb62-469b-867c-d926f9a1bace</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>signon</value>
-      <webElementGuid>65d9192a-ef8d-4786-b2df-2475f69c377e</webElementGuid>
+      <value>EST-11</value>
+      <webElementGuid>98f40409-9638-4d33-a3dd-a778af802eed</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
-      <value>submit</value>
-      <webElementGuid>e9234c10-2239-45a3-a289-f0d067cb9397</webElementGuid>
+      <value>text</value>
+      <webElementGuid>4724da1b-af44-4691-99ed-67af75c3b2c8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>value</name>
       <type>Main</type>
-      <value>Login</value>
-      <webElementGuid>a1148c7b-292c-4fc8-9975-3aaa3515a36b</webElementGuid>
+      <value>1</value>
+      <webElementGuid>d30f9780-f16d-4451-818c-a3203ee099f5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;Catalog&quot;)/form[1]/input[1]</value>
-      <webElementGuid>6bb5f48f-4abd-404b-a69e-4c0b6f75857f</webElementGuid>
+      <value>id(&quot;Cart&quot;)/form[1]/table[1]/tbody[1]/tr[2]/td[5]/input[1]</value>
+      <webElementGuid>69ac3eb9-7f85-42f1-8178-3bb9c91cf059</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@name='signon']</value>
-      <webElementGuid>3511d34a-140f-4013-bb41-6ac4b9a4c7b5</webElementGuid>
+      <value>//input[@name='EST-11']</value>
+      <webElementGuid>2c426f56-3001-4e98-bfa9-13698d71d11c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='Catalog']/form/input</value>
-      <webElementGuid>106d6bf0-686d-4bbf-ac7b-4190e49e749b</webElementGuid>
+      <value>//div[@id='Cart']/form/table/tbody/tr[2]/td[5]/input</value>
+      <webElementGuid>b28a579a-57dc-4870-9b85-3e9263bf23fc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/div/form/input</value>
-      <webElementGuid>8e4e5edb-3998-4194-9a57-90932fa68b8f</webElementGuid>
+      <value>//td[5]/input</value>
+      <webElementGuid>9c2cfbc1-e6b7-456d-a1d8-429644a54cf1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@name = 'signon' and @type = 'submit']</value>
-      <webElementGuid>7bbcbcd8-6d27-4e9b-86db-a07b23a877e8</webElementGuid>
+      <value>//input[@name = 'EST-11' and @type = 'text']</value>
+      <webElementGuid>75ce95df-e9ca-42c3-9e14-5984f4ab26bf</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

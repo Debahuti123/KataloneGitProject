@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Need a user name and password_signon (1)</name>
+   <name>input_Sub Total 18.50_updateCartQuantities</name>
    <tag></tag>
-   <elementGuidId>f93ad052-5754-4848-9857-af0d65e099d4</elementGuidId>
+   <elementGuidId>11c09a89-df1d-4773-80bd-906a876c8283</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@name='username']</value>
+         <key>CSS</key>
+         <value>input[name=&quot;updateCartQuantities&quot;]</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>input[name=&quot;signon&quot;]</value>
+         <key>XPATH</key>
+         <value>//input[@name='updateCartQuantities']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:role=button[name=&quot;Login&quot;i]</value>
+         <value>internal:role=button[name=&quot;Update Cart&quot;i]</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -29,15 +29,15 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>34224f5c-5560-4005-b2a1-060e8b55c339</webElementGuid>
+      <webElementGuid>e233b8f5-3e76-4ff5-a704-a84f16b23065</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>signon</value>
-      <webElementGuid>65d9192a-ef8d-4786-b2df-2475f69c377e</webElementGuid>
+      <value>updateCartQuantities</value>
+      <webElementGuid>3384fb6a-f126-4e09-b911-4e0d70491a28</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,54 +45,54 @@
       <name>type</name>
       <type>Main</type>
       <value>submit</value>
-      <webElementGuid>e9234c10-2239-45a3-a289-f0d067cb9397</webElementGuid>
+      <webElementGuid>624d25cd-1241-4e20-818c-e99cecfae547</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>value</name>
       <type>Main</type>
-      <value>Login</value>
-      <webElementGuid>a1148c7b-292c-4fc8-9975-3aaa3515a36b</webElementGuid>
+      <value>Update Cart</value>
+      <webElementGuid>a6c09b6f-540a-4497-9e5a-8f3a3d4a25c4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;Catalog&quot;)/form[1]/input[1]</value>
-      <webElementGuid>6bb5f48f-4abd-404b-a69e-4c0b6f75857f</webElementGuid>
+      <value>id(&quot;Cart&quot;)/form[1]/table[1]/tbody[1]/tr[3]/td[1]/input[1]</value>
+      <webElementGuid>5cc103af-71e6-473f-a424-1ffc253dff8f</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@name='signon']</value>
-      <webElementGuid>3511d34a-140f-4013-bb41-6ac4b9a4c7b5</webElementGuid>
+      <value>//input[@name='updateCartQuantities']</value>
+      <webElementGuid>a97af641-791f-4585-b53c-6b44e66ee66d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='Catalog']/form/input</value>
-      <webElementGuid>106d6bf0-686d-4bbf-ac7b-4190e49e749b</webElementGuid>
+      <value>//div[@id='Cart']/form/table/tbody/tr[3]/td/input</value>
+      <webElementGuid>fb24b218-7162-4250-b465-c259057ab66f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/div/form/input</value>
-      <webElementGuid>8e4e5edb-3998-4194-9a57-90932fa68b8f</webElementGuid>
+      <value>//tr[3]/td/input</value>
+      <webElementGuid>e5035ff3-83bd-4e3b-8b7c-92088dc645b7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@name = 'signon' and @type = 'submit']</value>
-      <webElementGuid>7bbcbcd8-6d27-4e9b-86db-a07b23a877e8</webElementGuid>
+      <value>//input[@name = 'updateCartQuantities' and @type = 'submit']</value>
+      <webElementGuid>2138f4b6-7951-456f-a038-34a28eb5804a</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
