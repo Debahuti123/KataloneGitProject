@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Add_birds,Edge Chromium 124,,,23-04-2024 18:51:47,23-04-2024 18:53:23,1m - 36.053s,PASSED
+,,,,,,,
+Test Cases/petstore/Add_birds,Edge Chromium 124,,,23-04-2024 18:51:47,23-04-2024 18:53:23,1m - 35.441s,PASSED
+"openBrowser("""")",Edge Chromium 124,,,23-04-2024 18:51:49,23-04-2024 18:52:01,12.953s,PASSED
+"navigateToUrl(""https://petstore.octoperf.com/actions/Catalog.action"")",Edge Chromium 124,,,23-04-2024 18:52:01,23-04-2024 18:52:04,2.642s,PASSED
+"click(findTestObject(""Object Repository/Page_JPetStore Demo/a_Sign In (4)""))",Edge Chromium 124,,,23-04-2024 18:52:04,23-04-2024 18:52:06,1.741s,PASSED
+"setText(findTestObject(""Object Repository/Page_JPetStore Demo/input_Need a user name and password_username (4)""), ""Debahuti"")",Edge Chromium 124,,,23-04-2024 18:52:06,23-04-2024 18:53:10,1m - 3.923s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_JPetStore Demo/input_Need a user name and password_password (4)""), ""gx5eF5RZOCViIDRmNDPMxg=="")",Edge Chromium 124,,,23-04-2024 18:53:10,23-04-2024 18:53:11,0.891s,PASSED
+"click(findTestObject(""Object Repository/Page_JPetStore Demo/input_Need a user name and password_signon (4)""))",Edge Chromium 124,,,23-04-2024 18:53:11,23-04-2024 18:53:12,1.379s,PASSED
+"click(findTestObject(""Object Repository/Page_JPetStore Demo/img (3)""))",Edge Chromium 124,,,23-04-2024 18:53:12,23-04-2024 18:53:13,0.886s,PASSED
+"click(findTestObject(""Object Repository/Page_JPetStore Demo/a_AV-CB-01""))",Edge Chromium 124,,,23-04-2024 18:53:13,23-04-2024 18:53:14,0.933s,PASSED
+"click(findTestObject(""Object Repository/Page_JPetStore Demo/a_Add to Cart (3)""))",Edge Chromium 124,,,23-04-2024 18:53:14,23-04-2024 18:53:15,0.923s,PASSED
+"setText(findTestObject(""Object Repository/Page_JPetStore Demo/input_false_EST-18""), ""6"")",Edge Chromium 124,,,23-04-2024 18:53:15,23-04-2024 18:53:16,1.226s,PASSED
+"click(findTestObject(""Object Repository/Page_JPetStore Demo/input_Sub Total 193.50_updateCartQuantities""))",Edge Chromium 124,,,23-04-2024 18:53:16,23-04-2024 18:53:17,1.404s,PASSED
+"click(findTestObject(""Object Repository/Page_JPetStore Demo/a_Proceed to Checkout (3)""))",Edge Chromium 124,,,23-04-2024 18:53:17,23-04-2024 18:53:18,0.925s,PASSED
+"click(findTestObject(""Object Repository/Page_JPetStore Demo/input_Ship to different address_newOrder (3)""))",Edge Chromium 124,,,23-04-2024 18:53:18,23-04-2024 18:53:19,1.012s,PASSED
+"click(findTestObject(""Object Repository/Page_JPetStore Demo/a_Confirm (2)""))",Edge Chromium 124,,,23-04-2024 18:53:19,23-04-2024 18:53:20,0.855s,PASSED
+"click(findTestObject(""Object Repository/Page_JPetStore Demo/a_Sign Out (3)""))",Edge Chromium 124,,,23-04-2024 18:53:20,23-04-2024 18:53:21,0.964s,PASSED
+closeBrowser(),Edge Chromium 124,,,23-04-2024 18:53:21,23-04-2024 18:53:23,1.499s,PASSED

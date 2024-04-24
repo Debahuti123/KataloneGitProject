@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>Add_birds</name>
+   <name>Add_to_cart</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -10,12 +10,12 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>true</rerunImmediately>
-   <testSuiteGuid>265113be-e30f-4586-a24d-7b6579bd84de</testSuiteGuid>
+   <testSuiteGuid>d21e52d5-248c-441e-a5e2-88e76eeceabf</testSuiteGuid>
    <testCaseLink>
-      <guid>4580f824-02ff-49d1-bc10-78b2df1ed086</guid>
+      <guid>111424f7-00c0-47e8-8060-8600b6af30c4</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/petstore/Add_birds</testCaseId>
+      <testCaseId>Test Cases/Swag_Lab/add_to_cart</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>
