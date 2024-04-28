@@ -99,6 +99,26 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_JPetStore Demo/input_Need a user name and password_username (4)_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Swag Labs/path (1)",
+      "brokenLocator": "",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "path",
+      "proposedLocatorMethod": "CSS",
+      "recoveryMethod": "CSS",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Swag Labs/path (1)_CSS.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Visual-Run/Page_Swag Labs/path",
+      "brokenLocator": "",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "internal:role\u003dlink[name\u003d\"1\"i]",
+      "proposedLocatorMethod": "SMART_LOCATOR",
+      "recoveryMethod": "SMART_LOCATOR",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Visual-Run/Page_Swag Labs/path_SMART_LOCATOR.png"
     }
   ]
 }

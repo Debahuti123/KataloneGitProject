@@ -1,0 +1,6 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Add_reptile,Edge Chromium 124,,,28-04-2024 11:31:41,28-04-2024 11:32:57,1m - 16.057s,FAILED
+,,,,,,,
+Test Cases/petstore/Add_reptiles,Edge Chromium 124,,,28-04-2024 11:32:40,28-04-2024 11:32:57,17.270s,FAILED
+"openBrowser("""")",Edge Chromium 124,,,28-04-2024 11:32:40,28-04-2024 11:32:56,15.998s,PASSED
+navigateToUrl(URL),Edge Chromium 124,,,28-04-2024 11:32:56,28-04-2024 11:32:57,1.130s,FAILED
