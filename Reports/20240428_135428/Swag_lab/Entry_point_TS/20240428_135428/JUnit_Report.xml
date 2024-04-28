@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Entry_point_TS" time="60.276" tests="1" failures="0" errors="0">
+   <testsuite name="Entry_point_TS" tests="1" failures="0" errors="0" time="60.276" skipped="0" timestamp="28-04-2024T13:54:47" hostname="QH615NR - host.docker.internal" id="Test Suites/Swag_lab/Entry_point_TS">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\QH615NR\\OneDrive - EY\\Desktop\\Katalon Training\\Git\\KatalonGitProjectfolder\\KataloneGitProject\\Reports\\20240428_135428\\Swag_lab\\Entry_point_TS\\20240428_135428"/>
+         <property name="logFiles" value="C:\\Users\\QH615NR\\OneDrive - EY\\Desktop\\Katalon Training\\Git\\KatalonGitProjectfolder\\KataloneGitProject\\Reports\\20240428_135428\\Swag_lab\\Entry_point_TS\\20240428_135428\\execution0.log"/>
+         <property name="attachments" value="keyes\keyes-pic1.png"/>
+         <property name="hostName" value="QH615NR - host.docker.internal"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.4.0.212"/>
+         <property name="browser" value="Edge Chromium 124"/>
+         <property name="hostAddress" value="192.168.1.2"/>
+         <property name="sessionId" value="d20776ffed32e5eeb248d82198a3a05b"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Swag_Lab/Entry_point" time="59.651" classname="Test Cases/Swag_Lab/Entry_point" status="PASSED">
+         <system-out><![CDATA[28-04-2024T13:54:48 - [TEST_CASE][PASSED] - Test Cases/Swag_Lab/Entry_point: Test Cases/Swag_Lab/Entry_point
+
+28-04-2024T13:54:49 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+28-04-2024T13:54:50 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+28-04-2024T13:54:54 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+28-04-2024T13:55:00 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+28-04-2024T13:55:00 - [TEST_STEP][PASSED] - navigateToUrl("https://www.saucedemo.com/v1/index.html"): Navigate to 'https://www.saucedemo.com/v1/index.html' successfully
+
+28-04-2024T13:55:02 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/v1/index.html' successfully
+
+28-04-2024T13:55:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Entry_point_Visual/Page_Swag Labs/img_standard_userlocked_out_userproblem_use_5284cf")): Object: 'Object Repository/Entry_point_Visual/Page_Swag Labs/img_standard_userlocked_out_userproblem_use_5284cf' is clicked on
+
+28-04-2024T13:55:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Entry_point_Visual/Page_Swag Labs/img_standard_userlocked_out_userproblem_use_5284cf' is clicked on
+
+28-04-2024T13:55:03 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Entry_point_Visual/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_db77ac"), "standard_user"): Text 'standard_user' is set on object 'Object Repository/Entry_point_Visual/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_db77ac'
+
+28-04-2024T13:55:05 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/Entry_point_Visual/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_db77ac'
+
+28-04-2024T13:55:05 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Entry_point_Visual/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_3423e9"), "niky7nTHOFjWhsWJFf51VA=="): Text ****** has been set on object 'Object Repository/Entry_point_Visual/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_3423e9'
+
+28-04-2024T13:55:07 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Entry_point_Visual/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_3423e9'
+
+28-04-2024T13:55:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Entry_point_Visual/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_0dff71")): Object: 'Object Repository/Entry_point_Visual/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_0dff71' is clicked on
+
+28-04-2024T13:55:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Entry_point_Visual/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_0dff71' is clicked on
+
+28-04-2024T13:55:08 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Entry_point_Visual/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_3423e9"), "qcu24s4901FyWDTwXGr6XA=="): Text ****** has been set on object 'Object Repository/Entry_point_Visual/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_3423e9'
+
+28-04-2024T13:55:09 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Entry_point_Visual/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_3423e9'
+
+28-04-2024T13:55:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Entry_point_Visual/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_0dff71")): Object: 'Object Repository/Entry_point_Visual/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_0dff71' is clicked on
+
+28-04-2024T13:55:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Entry_point_Visual/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_0dff71' is clicked on
+
+28-04-2024T13:55:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Entry_point_Visual/Page_Swag Labs/img_ADD TO CART_inventory_item_img")): Object: 'Object Repository/Entry_point_Visual/Page_Swag Labs/img_ADD TO CART_inventory_item_img' is clicked on
+
+28-04-2024T13:55:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Entry_point_Visual/Page_Swag Labs/img_ADD TO CART_inventory_item_img' is clicked on
+
+28-04-2024T13:55:12 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("pic1"): Taking screenshot successfully
+
+28-04-2024T13:55:14 - [MESSAGE][INFO] - 0 hidden object(s)
+
+28-04-2024T13:55:14 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-pic1.png]]
+
+28-04-2024T13:55:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Entry_point_Visual/Page_Swag Labs/img_ADD TO CART_inventory_item_img")): Object: 'Object Repository/Entry_point_Visual/Page_Swag Labs/img_ADD TO CART_inventory_item_img' is clicked on
+
+28-04-2024T13:55:46 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //a[@id='item_1_img_link']/img'. Please recheck the objects properties to make sure the desired element is located. 
+
+28-04-2024T13:55:46 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Entry_point_Visual/Page_Swag Labs/img_ADD TO CART_inventory_item_img'. Try using Self-healing.
+
+28-04-2024T13:55:46 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Entry_point_Visual/Page_Swag Labs/img_ADD TO CART_inventory_item_img' was broken. Propose an alternative one: '//img[@src = './img/bolt-shirt-1200x1500.jpg']'.
+
+28-04-2024T13:55:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Entry_point_Visual/Page_Swag Labs/img_ADD TO CART_inventory_item_img' is clicked on
+
+28-04-2024T13:55:46 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+28-04-2024T13:55:48 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[28-04-2024T13:54:47 - [TEST_SUITE][PASSED] - Entry_point_TS: Test Cases/Swag_Lab/Entry_point]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -21,26 +21,17 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://www.saucedemo.com/v1/index.html')
 
-WebUI.click(findTestObject('Object Repository/Entry_point_Visual/Page_Swag Labs/img_standard_userlocked_out_userproblem_use_5284cf'))
+WebUI.click(findTestObject('Object Repository/Entry_point/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_db77ac'))
 
-WebUI.setText(findTestObject('Object Repository/Entry_point_Visual/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_db77ac'), 
+WebUI.setText(findTestObject('Object Repository/Entry_point/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_db77ac'), 
     'standard_user')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Entry_point_Visual/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_3423e9'), 
-    'niky7nTHOFjWhsWJFf51VA==')
-
-WebUI.click(findTestObject('Object Repository/Entry_point_Visual/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_0dff71'))
-
-WebUI.setEncryptedText(findTestObject('Object Repository/Entry_point_Visual/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_3423e9'), 
+WebUI.setEncryptedText(findTestObject('Object Repository/Entry_point/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_3423e9'), 
     'qcu24s4901FyWDTwXGr6XA==')
 
-WebUI.click(findTestObject('Object Repository/Entry_point_Visual/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_0dff71'))
+WebUI.click(findTestObject('Object Repository/Entry_point/Page_Swag Labs/img_standard_userlocked_out_userproblem_use_5284cf'))
 
-WebUI.click(findTestObject('Object Repository/Entry_point_Visual/Page_Swag Labs/img_ADD TO CART_inventory_item_img'))
-
-WebUI.takeScreenshotAsCheckpoint('pic1')
-
-WebUI.click(findTestObject('Object Repository/Entry_point_Visual/Page_Swag Labs/img_ADD TO CART_inventory_item_img'))
+WebUI.takeScreenshotAsCheckpoint('pic2')
 
 WebUI.closeBrowser()
 

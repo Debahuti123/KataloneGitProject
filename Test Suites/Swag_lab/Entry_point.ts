@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>Entry_point_TS</name>
+   <name>Entry_point</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -10,9 +10,9 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>true</rerunImmediately>
-   <testSuiteGuid>9f6962ea-3a63-42b4-bc4e-faeeec453597</testSuiteGuid>
+   <testSuiteGuid>c2001d20-493a-4ef3-88f6-6356405db412</testSuiteGuid>
    <testCaseLink>
-      <guid>beade9fc-472c-43a7-a463-5d4ebc7f9800</guid>
+      <guid>75f9a7c9-71ca-45e3-8a08-214dd14b4352</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Swag_Lab/Entry_point</testCaseId>

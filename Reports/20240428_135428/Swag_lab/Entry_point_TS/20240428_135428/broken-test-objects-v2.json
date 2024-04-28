@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Entry_point_Visual/Page_Swag Labs/img_ADD TO CART_inventory_item_img",
+      "brokenLocator": "//a[@id\u003d\u0027item_1_img_link\u0027]/img",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//img[@src \u003d \u0027./img/bolt-shirt-1200x1500.jpg\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240428_135428/Swag_lab/Entry_point_TS/20240428_135428/Object Repository/Entry_point_Visual/Page_Swag Labs/img_ADD TO CART_inventory_item_img_customAttributes.png"
+    }
+  ]
+}

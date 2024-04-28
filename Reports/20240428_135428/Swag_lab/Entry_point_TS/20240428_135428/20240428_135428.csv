@@ -1,0 +1,16 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Entry_point_TS,Edge Chromium 124,,,28-04-2024 13:54:47,28-04-2024 13:55:48,1m - 0.276s,PASSED
+,,,,,,,
+Test Cases/Swag_Lab/Entry_point,Edge Chromium 124,,,28-04-2024 13:54:48,28-04-2024 13:55:48,59.651s,PASSED
+"openBrowser("""")",Edge Chromium 124,,,28-04-2024 13:54:49,28-04-2024 13:55:00,11.386s,PASSED
+"navigateToUrl(""https://www.saucedemo.com/v1/index.html"")",Edge Chromium 124,,,28-04-2024 13:55:00,28-04-2024 13:55:02,1.880s,PASSED
+"click(findTestObject(""Object Repository/Entry_point_Visual/Page_Swag Labs/img_standard_userlocked_out_userproblem_use_5284cf""))",Edge Chromium 124,,,28-04-2024 13:55:02,28-04-2024 13:55:03,1.240s,PASSED
+"setText(findTestObject(""Object Repository/Entry_point_Visual/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_db77ac""), ""standard_user"")",Edge Chromium 124,,,28-04-2024 13:55:03,28-04-2024 13:55:05,1.905s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Entry_point_Visual/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_3423e9""), ""niky7nTHOFjWhsWJFf51VA=="")",Edge Chromium 124,,,28-04-2024 13:55:05,28-04-2024 13:55:07,2.054s,PASSED
+"click(findTestObject(""Object Repository/Entry_point_Visual/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_0dff71""))",Edge Chromium 124,,,28-04-2024 13:55:07,28-04-2024 13:55:08,0.890s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Entry_point_Visual/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_3423e9""), ""qcu24s4901FyWDTwXGr6XA=="")",Edge Chromium 124,,,28-04-2024 13:55:08,28-04-2024 13:55:09,0.929s,PASSED
+"click(findTestObject(""Object Repository/Entry_point_Visual/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_0dff71""))",Edge Chromium 124,,,28-04-2024 13:55:09,28-04-2024 13:55:11,1.463s,PASSED
+"click(findTestObject(""Object Repository/Entry_point_Visual/Page_Swag Labs/img_ADD TO CART_inventory_item_img""))",Edge Chromium 124,,,28-04-2024 13:55:11,28-04-2024 13:55:12,1.063s,PASSED
+"takeScreenshotAsCheckpoint(""pic1"")",Edge Chromium 124,,,28-04-2024 13:55:12,28-04-2024 13:55:14,2.514s,PASSED
+"click(findTestObject(""Object Repository/Entry_point_Visual/Page_Swag Labs/img_ADD TO CART_inventory_item_img""))",Edge Chromium 124,,,28-04-2024 13:55:14,28-04-2024 13:55:46,31.929s,PASSED
+closeBrowser(),Edge Chromium 124,,,28-04-2024 13:55:46,28-04-2024 13:55:48,1.392s,PASSED
