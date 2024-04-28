@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>Visual_product_chose</name>
+   <name>Entry_point_TS</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -10,12 +10,12 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>true</rerunImmediately>
-   <testSuiteGuid>4620c6b6-bd3d-4e7c-8ffb-6cb9276c9877</testSuiteGuid>
+   <testSuiteGuid>9f6962ea-3a63-42b4-bc4e-faeeec453597</testSuiteGuid>
    <testCaseLink>
-      <guid>5df58130-03e5-463f-bbd3-21807132771a</guid>
+      <guid>beade9fc-472c-43a7-a463-5d4ebc7f9800</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Swag_Lab/Product_chose</testCaseId>
+      <testCaseId>Test Cases/Swag_Lab/Entry_point</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>
